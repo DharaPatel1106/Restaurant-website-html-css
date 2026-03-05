@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <style>
+        body {
+            background-color: rgb(142, 113, 74);
+            font-family: Arial, sans-serif;
+        }
+
+
+        header {
+            background-color: rgb(222, 159, 76);
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin: 40px;
+            justify-items: center;
+        }
+
+
+       
+        .box {
+            width: 280px;
+            height: 250px;  
+            border: 2px solid rgb(192, 168, 132);
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: rgb(192, 168, 132);
+            transition: transform 0.3s, box-shadow 0.3s;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+
+        .box img {
+            width: 100%;
+            height: 180px;  
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+
+        .box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .box img:hover {
+            transform: scale(1.1);
+        }
+
+
+        .p {
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+
+        .box:hover .p {
+            color: rgb(7, 32, 83);
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <h1>Meal Mingle</h1>
+    </header>
+
+
+    <div class="grid">
+
+
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShvMb3SUhwToGL7rlFzv5yWSPbcveZmZcfLQ&s" alt="Chinese food" usemap="#chinese-map">
+            <p class="p">Chinese</p>
+            <map name="chinese-map">
+                <area shape="rect" href="chainese.html" coords="0,0,280,180">
+            </map>
+        </div>
+
+
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjnyTOV-JLFk3jMf6NORFczfmio8r_3whkrA&s" alt="Gujarati dish" usemap="#gujrati-map">
+            <p class="p">Gujarati Thali</p>
+            <map name="gujrati-map">
+                <area shape="rect" href="gujaratithali.html" coords="0,0,280,180">
+            </map>
+        </div>
+
+
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9jrR6Oebyz5u831eO7kk0Z6lNN8WScQ1s2w&s" alt="Punjabi food" usemap="#panjabi-map">
+            <p class="p">Punjabi</p>
+            <map name="panjabi-map">
+                <area shape="rect" href="panjabi.html" coords="0,0,280,180">
+            </map>
+        </div>
+
+
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbJd854o4izFxp1E0ipl0Mh1WbvVEQwoWoxQ&s" alt="South Indian food" usemap="#south-map">
+            <p class="p">South Indian</p>
+            <map name="south-map">
+                <area shape="rect" href="south.html" coords="0,0,280,180">
+            </map>
+        </div>
+
+
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrVrWqY3HDiS_WhwQpmXpDnkuJaLjZdQs0Q&s" alt="Bakery product" usemap="#bakery-map">
+            <p class="p">Bakery Product</p>
+            <map name="bakery-map">
+                <area shape="rect" href="bakery.html" coords="0,0,280,180">
+            </map>
+        </div>
+
+
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpDtfyOa8hxQInGYl0KJ6ym7HBIBRbuX3LvQ&s" alt="Sweet" usemap="#sweet-map">
+            <p class="p">Sweets</p>
+            <map name="sweet-map">
+                <area shape="rect" href="sweet.html" coords="0,0,280,180">
+            </map>
+        </div>
+
+
+    </div>
+</body>
+</html>
+
+
+
+
+

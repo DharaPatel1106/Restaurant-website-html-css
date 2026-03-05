@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjabi</title>
+
+
+    <style>
+        body {
+            background-color: rgb(209, 175, 131);
+            font-family: Arial, sans-serif;
+        }
+
+
+        h1 {
+            background-color: bisque;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+
+        .panjabi {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+
+        .panjabi:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .panjabi img {
+            width: 250px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+            transition: transform 0.3s;
+            border: 2px solid #d1a459;
+        }
+
+
+        .panjabi img:hover {
+            transform: scale(1.1);
+        }
+
+
+        .panjabi-info {
+            padding: 20px;
+            max-width: 300px;
+        }
+
+
+        .panjabi-info p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+
+        .panjabi-info p b {
+            color: #222;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+    <h1>Punjabi</h1>
+
+
+    <div class="container">
+
+
+        <div class="panjabi">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.lRgh2-SckqVc3iC38t2alQHaE8?pid=Api&P=0&h=180" alt="Chole">
+            <div class="panjabi-info">
+                <p><b>Name:</b> Chole</p>
+                <p><b>Price:</b> 150 (Per plate)</p>
+                <p><b>Origin:</b> Punjab</p>
+            </div>
+        </div>
+
+
+        <div class="panjabi">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.2i6dC5sT__MUzQYOLCKanAHaFj?pid=Api&P=0&h=180" alt="Matar Paneer">
+            <div class="panjabi-info">
+                <p><b>Name:</b> Matar Paneer</p>
+                <p><b>Price:</b> 200</p>
+                <p><b>Origin:</b> Punjab</p>
+            </div>
+        </div>
+
+
+        <div class="panjabi">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.kBNZjItfAPm4MPdrkJmSrQHaEK?pid=Api&P=0&h=180" alt="Naan">
+            <div class="panjabi-info">
+                <p><b>Name:</b> Naan</p>
+                <p><b>Price:</b> 50</p>
+                <p><b>Origin:</b> Punjab</p>
+            </div>
+        </div>
+
+
+        <div class="panjabi">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.8yXqbA_ft0ackWk1SLMv6QHaE8?pid=Api&P=0&h=180" alt="Paratha">
+            <div class="panjabi-info">
+                <p><b>Name:</b> Paratha</p>
+                <p><b>Price:</b> 300</p>
+                <p><b>Origin:</b> Punjab</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
+
+
+

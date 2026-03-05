@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet</title>
+    <style>
+        body {
+            background-color: rgb(209, 175, 131);
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            background-color: bisque;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+        }
+        .sweets-image {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .sweets-image img {
+            width: 250px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+            transition: transform 0.3s;
+            border: 2px solid #d1a459;
+        }
+        .sweets-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .sweets-image img:hover {
+            transform: scale(1.1);
+        }
+        .sweets-info {
+            padding: 20px;
+            max-width: 300px;
+        }
+        .sweets-info p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+        .sweets-info p b {
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sweet</h1>
+    <div class="container">
+       
+        <div class="sweets-image">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.dN0wEzuPB-3-ULHtCH1UHAHaE1?pid=Api&P=0&h=180" alt="Kajukatli">
+            <div class="sweets-info">
+                <p><b>Name:</b> Kajukatli</p>
+                <p><b>Price:</b> 800 (500gm)</p>
+                <p><b>Origin:</b> Mughal Empire (16th-17th century)</p>
+            </div>
+        </div>
+
+
+       
+        <div class="sweets-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnR9Z8DyWnQfRIpa91-deuUJMUffQsKUGksQ&s" alt="Peda">
+            <div class="sweets-info">
+                <p><b>Name:</b> Peda</p>
+                <p><b>Price:</b> 300 (500gm)</p>
+                <p><b>Origin:</b> Mathura, Uttar Pradesh</p>
+            </div>
+        </div>
+
+
+       
+        <div class="sweets-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgHdvm1OBezeb6UWzkfwdFEkJB_CZE6BxOmA&s" alt="Gulab Jamun">
+            <div class="sweets-info">
+                <p><b>Name:</b> Gulab Jamun</p>
+                <p><b>Price:</b> 200 (500gm)</p>
+                <p><b>Origin:</b> Uttar Pradesh</p>
+            </div>
+        </div>
+
+
+       
+        <div class="sweets-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb8vcljWEHAU3u-SnkWWEGFZEw2ZjX4OTVew&s" alt="Barfi">
+            <div class="sweets-info">
+                <p><b>Name:</b> Barfi</p>
+                <p><b>Price:</b> 500 (500gm)</p>
+                <p><b>Origin:</b> Introduced to India by the Mughal Empire in the 16th century.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+

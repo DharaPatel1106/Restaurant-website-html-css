@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gujarati Thali</title>
+    <style>
+        body {
+            background-color: rgb(209, 175, 131);
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            background-color: bisque;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+        }
+        .gujarati {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .gujarati img {
+            width: 250px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+            transition: transform 0.3s;
+            border: 2px solid #d1a459;
+        }
+        .gujarati:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .gujarati img:hover {
+            transform: scale(1.1);
+        }
+        .gujarati-info {
+            padding: 20px;
+            max-width: 300px;
+        }
+        .gujarati-info p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+        .gujarati-info p b {
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gujarati Thali</h1>
+    <div class="container">
+     
+       
+        <div class="gujarati">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKwto-pvM87_a_GiW9vi4XzhAHPwLSfngQ0w&s" alt="Khichdi">
+            <div class="gujarati-info">
+                <p><b>Name:</b> Khichdi</p>
+                <p><b>Price:</b> 150 (Per plate)</p>
+                <p><b>Origin:</b> Khichdi's origins are deeply rooted in ancient India</p>
+            </div>
+        </div>
+
+
+       
+        <div class="gujarati">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.w0I9JXZ3DiMT1lAacmKMpwHaE8?pid=Api&P=0&h=180" alt="Halwa">
+            <div class="gujarati-info">
+                <p><b>Name:</b> Halwa</p>
+                <p><b>Price:</b> 100 (500gm)</p>
+                <p><b>Origin:</b> Uttar Pradesh</p>
+            </div>
+        </div>
+
+
+       
+       
+        <div class="gujarati">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.4PIt-GJjL0BqQigMCT5S1AHaDO?pid=Api&P=0&h=180" alt="Khaman Dhokla">
+            <div class="gujarati-info">
+                <p><b>Name:</b> Khaman Dhokla</p>
+                <p><b>Price:</b> 200 (500gm)</p>
+                <p><b>Origin:</b> Gujarat, India</p>
+            </div>
+        </div>
+
+
+       
+       
+        <div class="gujarati">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.SMFxG2vAhC8wGtGvOkk7LgHaIc?pid=Api&P=0&h=180" alt="Patra">
+            <div class="gujarati-info">
+                <p><b>Name:</b> Patra</p>
+                <p><b>Price:</b> 200 (500gm)</p>
+                <p><b>Origin:</b> Gujarat and Maharashtra</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+B

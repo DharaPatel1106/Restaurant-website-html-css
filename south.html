@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Indian Food</title>
+
+
+    <style>
+        body {
+            background-color: rgb(209, 175, 131);
+            font-family: Arial, sans-serif;
+        }
+
+
+        h1 {
+            background-color: bisque;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+
+        .south {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+
+        .south:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .south img {
+            width: 250px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+            transition: transform 0.3s;
+            border: 2px solid #d1a459;
+        }
+
+
+        .south img:hover {
+            transform: scale(1.1);
+        }
+
+
+        .south-info {
+            padding: 20px;
+            max-width: 300px;
+        }
+
+
+        .south-info p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+
+        .south-info p b {
+            color: #222;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+    <h1>South Indian Food</h1>
+
+
+    <div class="container">
+
+
+        <div class="south">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.eNFxo0dh1C7nEiOz3YPMoAHaE8?pid=Api&P=0&h=180" alt="Idli">
+            <div class="south-info">
+                <p><b>Name:</b> Idli</p>
+                <p><b>Price:</b> 50 (Per plate)</p>
+                <p><b>Origin:</b> Kerala</p>
+            </div>
+        </div>
+
+
+        <div class="south">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.VPhhv7x2IpJGroUuqs8WqgAAAA?pid=Api&P=0&h=180" alt="Dosa">
+            <div class="south-info">
+                <p><b>Name:</b> Dosa</p>
+                <p><b>Price:</b> 150</p>
+                <p><b>Origin:</b> Kerala</p>
+            </div>
+        </div>
+
+
+        <div class="south">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.o9BkLH4f-ys3G_KkX53_ZQHaEx?pid=Api&P=0&h=180" alt="Vada">
+            <div class="south-info">
+                <p><b>Name:</b> Vada</p>
+                <p><b>Price:</b> 50</p>
+                <p><b>Origin:</b> Kerala</p>
+            </div>
+        </div>
+
+
+        <div class="south">
+            <img src="https://t4.ftcdn.net/jpg/04/87/57/43/360_F_487574342_xu6mv6zelnqboDpJKy6HdrpkWDQqKyaH.jpg" alt="Uttapam">
+            <div class="south-info">
+                <p><b>Name:</b> Uttapam</p>
+                <p><b>Price:</b> 80</p>
+                <p><b>Origin:</b> Kerala</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
+
+

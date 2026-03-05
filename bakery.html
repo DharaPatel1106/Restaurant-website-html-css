@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Products</title>
+    <style>
+        body {
+            background-color: rgb(209, 175, 131);
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            background-color: bisque;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+        }
+        .bakery {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .bakery img {
+            width: 250px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+            transition: transform 0.3s;
+            border: 2px solid #d1a459;
+        }
+        .bakery:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .bakery img:hover {
+            transform: scale(1.1);
+        }
+        .bakery-info {
+            padding: 20px;
+            max-width: 300px;
+        }
+        .bakery-info p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+        .bakery-info p b {
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bakery Products</h1>
+    <div class="container">
+       
+        <div class="bakery">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.vlLzArWeV03hCZX-BccL2wHaD4?pid=Api&P=0&h=180" alt="Bread">
+            <div class="bakery-info">
+                <p><b>Name:</b> Bread</p>
+                <p><b>Price:</b> 60 (Per Packet)</p>
+                <p><b>Origin:</b> Middle East</p>
+            </div>
+        </div>
+
+
+       
+        <div class="bakery">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.Las7fKZ0grErpuvXSp_IKAHaEO?pid=Api&P=0&h=180" alt="Cake">
+            <div class="bakery-info">
+                <p><b>Name:</b> Cake</p>
+                <p><b>Price:</b> 700</p>
+                <p><b>Origin:</b> Egypt, Greece, and Rome</p>
+            </div>
+        </div>
+
+
+       
+        <div class="bakery">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.XsXEjDv_TZMneLEfSCx-mQHaE8?pid=Api&P=0&h=180" alt="Cookies">
+            <div class="bakery-info">
+                <p><b>Name:</b> Cookies</p>
+                <p><b>Price:</b> 250 (500gm)</p>
+                <p><b>Origin:</b> Cookies originated in 7th century Persia</p>
+            </div>
+        </div>
+
+
+       
+        <div class="bakery">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.KMB2X9K89gZqgjm9Jx2R5AHaE8?pid=Api&P=0&h=180" alt="Muffins">
+            <div class="bakery-info">
+                <p><b>Name:</b> Muffins</p>
+                <p><b>Price:</b> 70</p>
+                <p><b>Origin:</b> Muffins originated in the early 18th century, likely from the Low German "muffen" ("little cakes") or the Old French "moufflet" ("soft bread")</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

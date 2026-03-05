@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chainese</title>
+
+
+    <style>
+        body {
+            background-color: rgb(209, 175, 131);
+            font-family: Arial, sans-serif;
+        }
+
+
+        h1 {
+            background-color: bisque;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+
+        .chainese {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+
+        .chainese:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .chainese img {
+            width: 250px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+            transition: transform 0.3s;
+            border: 2px solid #d1a459;
+        }
+
+
+        .chainese img:hover {
+            transform: scale(1.1);
+        }
+
+
+        .chainese-info {
+            padding: 20px;
+            max-width: 300px;
+        }
+
+
+        .chainese-info p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+
+        .chainese-info p b {
+            color: #222;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+    <h1>Chainese</h1>
+
+
+    <div class="container">
+
+
+        <div class="chainese">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.qw4saJIa0eQ5mRjK63yWBAHaHa?pid=Api&P=0&h=180" alt="Noodles">
+            <div class="chainese-info">
+                <p><b>Name:</b> Noodles</p>
+                <p><b>Price:</b> 150 (Per plate)</p>
+                <p><b>Origin:</b> Japan</p>
+            </div>
+        </div>
+
+
+        <div class="chainese">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.es4WPD0-CFVsQLjHksjzhQHaF-?pid=Api&P=0&h=180" alt="Manchurian">
+            <div class="chainese-info">
+                <p><b>Name:</b> Manchurian</p>
+                <p><b>Price:</b> 100</p>
+                <p><b>Origin:</b> China</p>
+            </div>
+        </div>
+
+
+        <div class="chainese">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.09b2rzTTFOqkK0kesU5AtQHaD4?pid=Api&P=0&h=180" alt="Momos">
+            <div class="chainese-info">
+                <p><b>Name:</b> Momos</p>
+                <p><b>Price:</b> 80</p>
+                <p><b>Origin:</b> Nepal</p>
+            </div>
+        </div>
+
+
+        <div class="chainese">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.681IpgaWSbgcWEfo65IHxAHaEK?pid=Api&P=0&h=180" alt="Rice">
+            <div class="chainese-info">
+                <p><b>Name:</b> Manchurian with Rice</p>
+                <p><b>Price:</b> 100</p>
+                <p><b>Origin:</b> China</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
+
+
+
